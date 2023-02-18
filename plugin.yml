@@ -1,0 +1,15 @@
+name: FaQServers
+author: oc441
+main: oc441\FaQServers\Main
+version: 1.0.0
+api: [4.0.0]
+description: You can see the FaQ and the official server website!
+
+commands:
+  faq:
+    description: "open the FaQServers"
+    permission: faq.command
+    aliases: [faq, issue]
+permissions:
+  faq.command:
+    default: true
